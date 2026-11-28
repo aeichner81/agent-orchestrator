@@ -1,8 +1,8 @@
 # Agent Relay: implementation plan
 
-Status: **DRAFT v2, awaiting operator approval.** Updated 2026-11-22 with the operator's answers. No code will be written until this is approved.
+Status: **Approved by the operator.** Version 2, updated 2026-11-22 with the operator's answers. Each phase is still planned in plan mode before any of its code is written.
 Source of truth: `specs/001-agent-relay.md` (user stories US-1 to US-14, acceptance criteria AC-1 to AC-41), taken from the original brief in `SPEC.md`. API details: `docs/RESEARCH.md`. Decisions: `docs/DECISIONS.md`.
-Every phase and task names the AC IDs it covers. Open questions Q1–Q6 in spec section 8 must be answered before the phases that depend on them (Q1 in Phase 1; Q2–Q4 in Phase 1; Q5 in Phase 4; Q6 in Phase 1).
+Every phase and task names the AC IDs it covers. Questions Q1–Q6 in spec section 8 were resolved on 2026-11-23 (D9–D14). Q1–Q4 and Q6 apply from Phase 1, and Q5 from Phase 4.
 
 ## Agreed defaults (operator answers, 2026-11-22)
 
